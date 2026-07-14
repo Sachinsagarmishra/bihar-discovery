@@ -136,7 +136,7 @@ document.querySelector('#app').innerHTML = `
           <p class="text-text-body text-sm md:text-base leading-relaxed">
             Performing rituals on the banks of the <strong>Phalgu River</strong> is believed to liberate the souls of ancestors, bringing peace and blessings to the family. Our packages provide complete coordination with certified local Pandits to ensure hassle-free rituals.
           </p>
-          <div class="flex flex-wrap gap-4 text-xs font-semibold text-saffron mt-6 border-t border-border/45 pt-4">
+          <div class="flex flex-wrap gap-4 text-xs font-semibold text-saffron mt-6 border-t border-border/45 pt-4" style="margin-top: 1.75rem !important;">
             <span>✦ Holy Phalgu River</span>
             <span>✦ Akshayavat Tree</span>
             <span>✦ Mangla Gauri Shaktipeeth</span>
@@ -145,7 +145,7 @@ document.querySelector('#app').innerHTML = `
         <div class="lg:col-span-6">
           <div class="rounded-2xl overflow-hidden shadow-xl aspect-[4/3] relative group">
             <img src="/images/Magadha-Heritage.png" alt="Gaya Temple" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-            <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end card-overlay-container">
               <span class="text-white font-heading text-xl">The Sacred Vishnupad Temple on the banks of Phalgu</span>
             </div>
           </div>
@@ -163,7 +163,7 @@ document.querySelector('#app').innerHTML = `
           <p class="text-text-body text-sm md:text-base leading-relaxed">
             Today, the temple complex features a serene lake (Janaki Kund) and acts as the heart of Mithila’s deep artistic and spiritual heritage. Walking through Sitamarhi gives you an authentic glimpse of Mithila art, traditional folk music, and divine feminine devotion.
           </p>
-          <div class="flex flex-wrap gap-4 text-xs font-semibold text-saffron mt-6 border-t border-border/45 pt-4">
+          <div class="flex flex-wrap gap-4 text-xs font-semibold text-saffron mt-6 border-t border-border/45 pt-4" style="margin-top: 1.75rem !important;">
             <span>✦ Punaura Dham</span>
             <span>✦ Janaki Kund</span>
             <span>✦ Haleshwar Sthan</span>
@@ -172,7 +172,7 @@ document.querySelector('#app').innerHTML = `
         <div class="lg:col-span-6 lg:order-1">
           <div class="rounded-2xl overflow-hidden shadow-xl aspect-[4/3] relative group">
             <img src="/images/Mithila-Art-Culture.png" alt="Mithila Art and Devotion" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-            <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end card-overlay-container">
               <span class="text-white font-heading text-xl">Punaura Dham Temple Complex in Sitamarhi</span>
             </div>
           </div>
@@ -190,7 +190,7 @@ document.querySelector('#app').innerHTML = `
           <p class="text-text-body text-sm md:text-base leading-relaxed">
             Dedicated to Lord Shiva and Shakti, this octagonal stone marvel has preserved ancient rituals for nearly two millennia. The temple is famous for a unique and gentle ritual: a symbolic goat sacrifice where the animal is temporarily put to sleep by the priest chanting mantras, then revived and released unharmed.
           </p>
-          <div class="flex flex-wrap gap-4 text-xs font-semibold text-saffron mt-6 border-t border-border/45 pt-4">
+          <div class="flex flex-wrap gap-4 text-xs font-semibold text-saffron mt-6 border-t border-border/45 pt-4" style="margin-top: 1.75rem !important;">
             <span>✦ Octagonal Stone Architecture</span>
             <span>✦ 108 AD Heritage</span>
             <span>✦ Pavra Hill Views</span>
@@ -199,7 +199,7 @@ document.querySelector('#app').innerHTML = `
         <div class="lg:col-span-6">
           <div class="rounded-2xl overflow-hidden shadow-xl aspect-[4/3] relative group">
             <img src="/images/eco-nature.png" alt="Kaimur Pavra Hill" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-            <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end card-overlay-container">
               <span class="text-white font-heading text-xl">Mundeshwari Temple, Kaimur Hills</span>
             </div>
           </div>
