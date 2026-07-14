@@ -77,7 +77,7 @@ document.querySelector('#app').innerHTML = `
   </nav>
 
   <!-- Hero Section -->
-  <section class="relative overflow-hidden bg-cream-light py-20 md:py-32 border-b border-border">
+  <section class="relative overflow-hidden bg-cream-light border-b border-border" style="padding-top: 3.75rem; padding-bottom: 3.75rem;">
     <div class="container-main grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
       <div class="lg:col-span-7 space-y-6">
         <h1 class="font-heading text-4xl md:text-5xl lg:text-[4rem] text-primary-green leading-tight">
@@ -97,7 +97,7 @@ document.querySelector('#app').innerHTML = `
   </section>
 
   <!-- Banner / Core Philosophy Section -->
-  <section class="py-24 md:py-32 bg-white">
+  <section class="bg-white" style="padding-top: 3.75rem; padding-bottom: 3.75rem;">
     <div class="container-main grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center">
       <div class="lg:col-span-6 relative rounded-2xl overflow-hidden shadow-2xl aspect-[4/3] group">
         <img src="/images/Diverse-faiths-Shared-heritage-Stronger-local-communities..png" alt="Bihar Heritage and Local Communities" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
@@ -126,7 +126,7 @@ document.querySelector('#app').innerHTML = `
   </section>
 
   <!-- Leadership Profiles Section -->
-  <section class="py-24 md:py-32 bg-cream-light border-t border-b border-border">
+  <section class="bg-cream-light border-t border-b border-border" style="padding-top: 3.75rem; padding-bottom: 3.75rem;">
     <div class="container-main space-y-16">
       <div class="max-w-2xl mx-auto text-center space-y-3">
         <span class="text-saffron font-semibold text-xs uppercase tracking-widest">Leadership & Administration</span>
