@@ -77,12 +77,9 @@ document.querySelector('#app').innerHTML = `
   </nav>
 
   <!-- Hero Section -->
-  <section class="relative overflow-hidden bg-cream-light py-16 md:py-24 border-b border-border">
+  <section class="relative overflow-hidden bg-cream-light py-20 md:py-32 border-b border-border">
     <div class="container-main grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
       <div class="lg:col-span-7 space-y-6">
-        <div class="inline-flex items-center gap-2 px-3 py-1 bg-primary-green/10 border border-primary-green/20 rounded-full text-primary-green text-xs font-semibold uppercase tracking-wider">
-          Official Portal | आधिकारिक पोर्टल
-        </div>
         <h1 class="font-heading text-4xl md:text-5xl lg:text-[4rem] text-primary-green leading-tight">
           A Vision for Sacred & <br>
           <span class="text-saffron font-italic">Sustainable Tourism in Bihar</span>
@@ -100,8 +97,8 @@ document.querySelector('#app').innerHTML = `
   </section>
 
   <!-- Banner / Core Philosophy Section -->
-  <section class="py-16 md:py-20 bg-white">
-    <div class="container-main grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+  <section class="py-24 md:py-32 bg-white">
+    <div class="container-main grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center">
       <div class="lg:col-span-6 relative rounded-2xl overflow-hidden shadow-2xl aspect-[4/3] group">
         <img src="/images/Diverse-faiths-Shared-heritage-Stronger-local-communities..png" alt="Bihar Heritage and Local Communities" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
       </div>
@@ -129,7 +126,7 @@ document.querySelector('#app').innerHTML = `
   </section>
 
   <!-- Leadership Profiles Section -->
-  <section class="py-16 md:py-24 bg-cream-light border-t border-b border-border">
+  <section class="py-24 md:py-32 bg-cream-light border-t border-b border-border">
     <div class="container-main space-y-16">
       <div class="max-w-2xl mx-auto text-center space-y-3">
         <span class="text-saffron font-semibold text-xs uppercase tracking-widest">Leadership & Administration</span>
