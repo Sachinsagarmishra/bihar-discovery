@@ -116,13 +116,13 @@ document.querySelector('#app').innerHTML = `
   <!-- Sacred Narrative Section -->
   <section id="destinations" class="bg-white border-t border-border" style="padding-top: 3.75rem; padding-bottom: 3.75rem;">
     <div class="container-main space-y-16">
-      <div class="max-w-3xl mx-auto text-center space-y-4">
+      <div class="max-w-3xl space-y-4 about-header-container" style="margin: 0 auto 2.5rem auto !important; text-align: center;">
         <span class="text-accent-gold font-heading text-2xl">पावन तीर्थ स्थल</span>
         <h2 class="font-heading text-3xl md:text-4xl text-primary-green">Sacred Destinations of Eternal Bihar</h2>
         <p class="text-text-light text-sm md:text-base">
           Bihar houses some of the oldest and most spiritually significant sites in Hindu cosmology. Explore the legendary stories and sacred significance of each region.
         </p>
-        <div class="w-24 h-0.5 bg-accent-gold mx-auto mt-4"></div>
+        <div class="choti-line-gold"></div>
       </div>
 
       <!-- Gaya Ji -->

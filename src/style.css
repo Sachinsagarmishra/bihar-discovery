@@ -1883,3 +1883,10 @@ h1, h2, h3, h4, h5, h6 {
   padding: 1rem !important;
 }
 
+.choti-line-gold {
+  width: 4.5rem;
+  height: 2px;
+  background-color: #D5A85A; /* Gold */
+  margin: 1rem auto 0 auto !important;
+}
+
