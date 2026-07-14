@@ -100,7 +100,7 @@ document.querySelector('#app').innerHTML = `
         <div class="aspect-square w-full rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
           <img src="/images/sites/hindu.webp" alt="Hindu Temple Bihar" class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700" />
         </div>
-        <div class="absolute -bottom-4 -left-4 bg-white p-4 rounded-xl shadow-lg border border-border flex items-center gap-3">
+        <div class="absolute -bottom-4 -left-4 bg-white rounded-xl shadow-lg border border-border flex items-center" style="padding: 1rem !important; gap: 0.75rem !important;">
           <div class="w-10 h-10 rounded-full bg-accent-gold/20 flex items-center justify-center text-accent-gold">
             🕉️
           </div>
