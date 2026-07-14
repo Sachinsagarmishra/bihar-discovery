@@ -77,7 +77,7 @@ document.querySelector('#app').innerHTML = `
   </nav>
 
   <!-- Hero Section -->
-  <section class="relative overflow-hidden bg-cream-light py-12 md:py-20">
+  <section class="relative overflow-hidden bg-cream-light" style="padding-top: 3.75rem; padding-bottom: 3.75rem;">
     <div class="container-main grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
       <div class="lg:col-span-7 space-y-6">
         <div class="inline-flex items-center gap-2 px-3 py-1 bg-saffron/10 border border-saffron/20 rounded-full text-saffron text-xs font-semibold uppercase tracking-wider">
@@ -114,7 +114,7 @@ document.querySelector('#app').innerHTML = `
   </section>
 
   <!-- Sacred Narrative Section -->
-  <section id="destinations" class="py-16 md:py-24 bg-white border-t border-border">
+  <section id="destinations" class="bg-white border-t border-border" style="padding-top: 3.75rem; padding-bottom: 3.75rem;">
     <div class="container-main space-y-16">
       <div class="max-w-3xl mx-auto text-center space-y-4">
         <span class="text-accent-gold font-heading text-2xl">पावन तीर्थ स्थल</span>
@@ -209,7 +209,7 @@ document.querySelector('#app').innerHTML = `
   </section>
 
   <!-- Interactive Package Section -->
-  <section id="packages" class="py-16 md:py-24 bg-cream-light border-t border-b border-border">
+  <section id="packages" class="bg-cream-light border-t border-b border-border" style="padding-top: 3.75rem; padding-bottom: 3.75rem;">
     <div class="container-main space-y-12">
       <div class="max-w-2xl space-y-3 about-header-container" style="margin: 0 auto 2.5rem auto !important; text-align: center;">
         <span class="text-saffron font-semibold text-xs uppercase tracking-widest">Explore Tour Packages</span>
@@ -224,7 +224,7 @@ document.querySelector('#app').innerHTML = `
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
         <!-- 7 Days -->
         <div class="bg-white rounded-3xl border border-border shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300 flex flex-col overflow-hidden">
-          <div class="p-8 bg-saffron text-white space-y-2 relative">
+          <div class="bg-saffron text-white space-y-2 relative card-header-padding">
             <div class="absolute top-6 right-6 bg-white/20 px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider">Heritage</div>
             <span class="text-xs uppercase tracking-wider text-cream/80">01. Ramayana & Mithila Trail</span>
             <h3 class="font-heading text-3xl font-bold">7 Days Package</h3>
@@ -232,11 +232,6 @@ document.querySelector('#app').innerHTML = `
           </div>
           <div class="card-text-container-large flex-1 flex flex-col justify-between space-y-6">
             <div class="space-y-5">
-              <div class="flex items-baseline gap-2">
-                <span class="text-3xl font-bold text-saffron">₹16,499</span>
-                <span class="text-xs text-text-light">/ per person</span>
-              </div>
-              <hr class="border-border" />
               <div class="space-y-4 text-xs md:text-sm text-text-body">
                 <div class="flex gap-3">
                   <span class="text-saffron shrink-0">📍</span>
@@ -251,8 +246,8 @@ document.querySelector('#app').innerHTML = `
                   <span><strong>Includes:</strong> 3-Star Hotels, AC Sedan, Breakfast, Certified Heritage Guide</span>
                 </div>
               </div>
-              <hr class="border-border" />
-              <div class="bg-cream-light/60 p-4 rounded-2xl border border-border/50 space-y-3">
+              <hr class="border-border" style="margin-top: 1.25rem !important; margin-bottom: 1.25rem !important;" />
+              <div class="bg-cream-light/60 rounded-2xl border border-border/50 space-y-3 itinerary-box-padding">
                 <h4 class="text-xs font-semibold text-primary-green uppercase tracking-wider">Itinerary Overview:</h4>
                 <ul class="text-[11px] md:text-xs space-y-2 text-text-light list-disc list-inside leading-relaxed">
                   <li>Day 1-2: Arrival in Patna, Ganga Aarti, Buxar travel</li>
@@ -269,7 +264,7 @@ document.querySelector('#app').innerHTML = `
         <!-- 8 Days -->
         <div class="bg-white rounded-3xl border-2 border-saffron shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 flex flex-col overflow-hidden relative">
           <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-accent-gold text-white text-[9px] font-bold uppercase py-1.5 px-5 rounded-full tracking-widest shadow-md z-10">Most Popular</div>
-          <div class="p-8 bg-primary-green text-white space-y-2 relative">
+          <div class="bg-primary-green text-white space-y-2 relative card-header-padding">
             <div class="absolute top-6 right-6 bg-white/20 px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider">Devotion</div>
             <span class="text-xs uppercase tracking-wider text-cream/80">02. Moksha & Shakti Tour</span>
             <h3 class="font-heading text-3xl font-bold">8 Days Package</h3>
@@ -277,11 +272,6 @@ document.querySelector('#app').innerHTML = `
           </div>
           <div class="card-text-container-large flex-1 flex flex-col justify-between space-y-6">
             <div class="space-y-5">
-              <div class="flex items-baseline gap-2">
-                <span class="text-3xl font-bold text-saffron">₹19,999</span>
-                <span class="text-xs text-text-light">/ per person</span>
-              </div>
-              <hr class="border-border" />
               <div class="space-y-4 text-xs md:text-sm text-text-body">
                 <div class="flex gap-3">
                   <span class="text-saffron shrink-0">📍</span>
@@ -296,8 +286,8 @@ document.querySelector('#app').innerHTML = `
                   <span><strong>Includes:</strong> 4-Star Stays, AC Innova, All Meals, Pandit Booking assistance</span>
                 </div>
               </div>
-              <hr class="border-border" />
-              <div class="bg-cream-light/60 p-4 rounded-2xl border border-border/50 space-y-3">
+              <hr class="border-border" style="margin-top: 1.25rem !important; margin-bottom: 1.25rem !important;" />
+              <div class="bg-cream-light/60 rounded-2xl border border-border/50 space-y-3 itinerary-box-padding">
                 <h4 class="text-xs font-semibold text-primary-green uppercase tracking-wider">Itinerary Overview:</h4>
                 <ul class="text-[11px] md:text-xs space-y-2 text-text-light list-disc list-inside leading-relaxed">
                   <li>Day 1-2: Patna Ghat visit, drive to Gaya Ji, evening orientation</li>
@@ -314,7 +304,7 @@ document.querySelector('#app').innerHTML = `
 
         <!-- 10 Days -->
         <div class="bg-white rounded-3xl border border-border shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300 flex flex-col overflow-hidden">
-          <div class="p-8 bg-warm-brown text-white space-y-2 relative">
+          <div class="bg-warm-brown text-white space-y-2 relative card-header-padding">
             <div class="absolute top-6 right-6 bg-white/20 px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider">Grand Tour</div>
             <span class="text-xs uppercase tracking-wider text-cream/80">03. Complete Vedic Circuit</span>
             <h3 class="font-heading text-3xl font-bold">10 Days Package</h3>
@@ -322,11 +312,6 @@ document.querySelector('#app').innerHTML = `
           </div>
           <div class="card-text-container-large flex-1 flex flex-col justify-between space-y-6">
             <div class="space-y-5">
-              <div class="flex items-baseline gap-2">
-                <span class="text-3xl font-bold text-saffron">₹24,999</span>
-                <span class="text-xs text-text-light">/ per person</span>
-              </div>
-              <hr class="border-border" />
               <div class="space-y-4 text-xs md:text-sm text-text-body">
                 <div class="flex gap-3">
                   <span class="text-saffron shrink-0">📍</span>
@@ -341,8 +326,8 @@ document.querySelector('#app').innerHTML = `
                   <span><strong>Includes:</strong> Deluxe Hotels, AC SUV, All Meals, Local expert guides in all locations</span>
                 </div>
               </div>
-              <hr class="border-border" />
-              <div class="bg-cream-light/60 p-4 rounded-2xl border border-border/50 space-y-3">
+              <hr class="border-border" style="margin-top: 1.25rem !important; margin-bottom: 1.25rem !important;" />
+              <div class="bg-cream-light/60 rounded-2xl border border-border/50 space-y-3 itinerary-box-padding">
                 <h4 class="text-xs font-semibold text-primary-green uppercase tracking-wider">Itinerary Overview:</h4>
                 <ul class="text-[11px] md:text-xs space-y-2 text-text-light list-disc list-inside leading-relaxed">
                   <li>Day 1-2: Arrival, Buxar (Ganga Aarti, Ram Rekha Ghat)</li>
@@ -362,7 +347,7 @@ document.querySelector('#app').innerHTML = `
   </section>
 
   <!-- 24×7 Travel Assistance Banner -->
-  <section class="assistance-section bg-white">
+  <section class="assistance-section bg-white" style="padding-top: 3.75rem; padding-bottom: 3.75rem;">
     <div class="container-main">
       <div class="assistance-panel">
         <div class="assistance-split">
@@ -403,7 +388,7 @@ document.querySelector('#app').innerHTML = `
   </section>
 
   <!-- FAQ Section -->
-  <section class="support-faq-section bg-cream-light py-16">
+  <section class="support-faq-section bg-cream-light" style="padding-top: 3.75rem; padding-bottom: 3.75rem;">
     <div class="container-main">
       <div class="faq-panel mx-auto max-w-4xl">
         <div class="faq-heading-row">
