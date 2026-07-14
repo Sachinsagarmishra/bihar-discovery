@@ -239,11 +239,11 @@ document.querySelector('#app').innerHTML = `
                 </div>
                 <div class="flex gap-3">
                   <span class="text-saffron shrink-0">✨</span>
-                  <span><strong>Highlights:</strong> Ram Rekha Ghat, Punaura Dham, Mithila Art Tour, Janaki Mandir</span>
+                  <span><strong>Highlights:</strong> Ram Rekha Ghat, Punaura Dham, Mithila Art Tour, Janaki Mandir, Helipad transfers</span>
                 </div>
                 <div class="flex gap-3">
                   <span class="text-saffron shrink-0">🏨</span>
-                  <span><strong>Includes:</strong> 3-Star Hotels, AC Sedan, Breakfast, Certified Heritage Guide</span>
+                  <span><strong>Includes:</strong> 3-Star Hotels, AC Sedan, Breakfast, Certified Guide, Helipad facility</span>
                 </div>
               </div>
               <hr class="border-border" style="margin-top: 1.25rem !important; margin-bottom: 1.25rem !important;" />
@@ -279,11 +279,11 @@ document.querySelector('#app').innerHTML = `
                 </div>
                 <div class="flex gap-3">
                   <span class="text-saffron shrink-0">✨</span>
-                  <span><strong>Highlights:</strong> Pind Daan at Vishnupad, Mangla Gauri Shaktipeeth, Mundeshwari Hill climb</span>
+                  <span><strong>Highlights:</strong> Pind Daan at Vishnupad, Mangla Gauri Shaktipeeth, Mundeshwari Hill, Helipad Tour</span>
                 </div>
                 <div class="flex gap-3">
                   <span class="text-saffron shrink-0">🏨</span>
-                  <span><strong>Includes:</strong> 4-Star Stays, AC Innova, All Meals, Pandit Booking assistance</span>
+                  <span><strong>Includes:</strong> 4-Star Stays, AC Innova, All Meals, Pandit for Pind Daan, Helipad facility</span>
                 </div>
               </div>
               <hr class="border-border" style="margin-top: 1.25rem !important; margin-bottom: 1.25rem !important;" />
@@ -319,11 +319,11 @@ document.querySelector('#app').innerHTML = `
                 </div>
                 <div class="flex gap-3">
                   <span class="text-saffron shrink-0">✨</span>
-                  <span><strong>Highlights:</strong> Complete Ramayan Circuit, Mundeshwari, Ganga holy water collection at Sultanganj</span>
+                  <span><strong>Highlights:</strong> Complete Ramayan Circuit, Pind Daan in Gaya, Mundeshwari, Helipad Tour</span>
                 </div>
                 <div class="flex gap-3">
                   <span class="text-saffron shrink-0">🏨</span>
-                  <span><strong>Includes:</strong> Deluxe Hotels, AC SUV, All Meals, Local expert guides in all locations</span>
+                  <span><strong>Includes:</strong> Deluxe Hotels, AC SUV, All Meals, Pandit for Pind Daan, Helipad transfers</span>
                 </div>
               </div>
               <hr class="border-border" style="margin-top: 1.25rem !important; margin-bottom: 1.25rem !important;" />
