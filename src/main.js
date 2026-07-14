@@ -34,7 +34,7 @@ document.querySelector('#app').innerHTML = `
               <img src="/images/sites/budh.webp" alt="Buddhist Pilgrimage Sites" />
               <span>Buddhist<br>Pilgrimage Sites</span>
             </a>
-            <a href="#" class="faith-mega-card">
+            <a href="/hindu-pilgrimage.html" class="faith-mega-card">
               <img src="/images/sites/hindu.webp" alt="Hindu Pilgrimage Sites" />
               <span>Hindu<br>Pilgrimage Sites</span>
             </a>
@@ -159,7 +159,7 @@ document.querySelector('#app').innerHTML = `
           </div>
           <span class="journey-pill">6-10 Day Journeys</span>
           <p>Gaya Ji, Sitamarhi, Patna and Ramayan Circuit</p>
-          <a href="#" class="pilgrimage-button">Explore packages</a>
+          <a href="/hindu-pilgrimage.html" class="pilgrimage-button">Explore packages</a>
         </div>
 
         <!-- Jain -->
