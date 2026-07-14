@@ -88,10 +88,10 @@ document.querySelector('#app').innerHTML = `
           Where Devotion Meets Eternity: <br>
           <span class="text-primary-green font-italic">The Hindu Pilgrimage of Bihar</span>
         </h1>
-        <p class="text-text-body text-base md:text-lg max-w-2xl leading-relaxed">
+        <p class="text-text-body text-base md:text-lg max-w-2xl leading-relaxed" style="margin-top: 1.5rem !important; margin-bottom: 1.5rem !important;">
           From the moksha-giving banks of Phalgu river in Gaya to the sacred birthplace of Goddess Sita in Sitamarhi, embark on a spiritual odyssey through the ancient heartlands of Sanatana Dharma.
         </p>
-        <div class="flex flex-wrap gap-3">
+        <div class="flex flex-wrap gap-3" style="margin-top: 1.75rem !important;">
           <a href="#packages" class="btn-saffron rounded px-6 py-3 text-sm font-semibold shadow-md hover:bg-saffron/90 transition-all duration-200">View Spiritual Packages</a>
           <a href="#destinations" class="btn-outline rounded px-6 py-3 text-sm font-semibold hover:bg-cream-dark transition-all duration-200">Explore Sacred Sites</a>
         </div>
