@@ -11,6 +11,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         hindu: resolve(__dirname, 'hindu-pilgrimage.html'),
+        about: resolve(__dirname, 'about.html'),
       },
     },
   },

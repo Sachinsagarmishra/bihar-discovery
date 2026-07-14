@@ -52,7 +52,7 @@ document.querySelector('#app').innerHTML = `
         <a href="#" class="text-sm text-text-dark hover:text-primary-green transition-colors font-medium">Find Your Roots</a>
         <a href="#" class="text-sm text-text-dark hover:text-primary-green transition-colors font-medium">Experiences</a>
         <a href="#" class="text-sm text-text-dark hover:text-primary-green transition-colors font-medium">Travel Support</a>
-        <a href="#" class="btn-saffron text-xs px-5 py-2.5 rounded">Plan Your Bihar Journey</a>
+        <a href="/about.html" class="btn-saffron text-xs px-5 py-2.5 rounded">Plan Your Bihar Journey</a>
       </div>
 
       <!-- Mobile Menu Button -->
@@ -71,7 +71,7 @@ document.querySelector('#app').innerHTML = `
         <a href="#" class="block text-sm text-text-dark hover:text-primary-green transition-colors font-medium py-2">Find Your Roots</a>
         <a href="#" class="block text-sm text-text-dark hover:text-primary-green transition-colors font-medium py-2">Experiences</a>
         <a href="#" class="block text-sm text-text-dark hover:text-primary-green transition-colors font-medium py-2">Travel Support</a>
-        <a href="#" class="btn-saffron w-full text-center text-xs py-2.5 rounded mt-2">Plan Your Bihar Journey</a>
+        <a href="/about.html" class="btn-saffron w-full text-center text-xs py-2.5 rounded mt-2">Plan Your Bihar Journey</a>
       </div>
     </div>
   </nav>
@@ -471,7 +471,7 @@ document.querySelector('#app').innerHTML = `
     <div class="container-main text-center">
       <h2>Plan a journey rooted in faith and care.</h2>
       <p>Let us help you plan a meaningful and hassle-free experience.</p>
-      <a href="#" class="top-footer-button">Plan Your Journey</a>
+      <a href="/about.html" class="top-footer-button">Plan Your Journey</a>
     </div>
   </section>
 
