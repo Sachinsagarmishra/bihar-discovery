@@ -144,7 +144,7 @@ document.querySelector('#app').innerHTML = `
         <p class="text-text-body text-sm md:text-base leading-relaxed">
           Our initiative helps protect ancient monuments like Bodh Gaya, Pavapuri, Nalanda, and Mundeshwari Hill while driving tourism-led livelihoods for local guides, artisans, and family-run homestays.
         </p>
-        <div class="grid grid-cols-2 gap-6 pt-5 border-t border-border/80">
+        <div class="grid grid-cols-2 gap-6 pt-5 border-t border-border/80 mt-6" style="margin-top: 1.75rem !important;">
           <div>
             <h4 class="font-heading text-xl md:text-2xl text-saffron mb-1">Verified Guides</h4>
             <p class="text-xs text-text-light leading-relaxed">Govt. certified local guides in 4 major languages</p>
@@ -161,7 +161,7 @@ document.querySelector('#app').innerHTML = `
   <!-- Leadership Profiles Section -->
   <section class="bg-cream-light border-t border-b border-border" style="padding-top: 3.75rem; padding-bottom: 3.75rem;">
     <div class="container-main space-y-16">
-      <div class="max-w-2xl mx-auto text-center space-y-3 about-header-container">
+      <div class="max-w-2xl space-y-3 about-header-container" style="margin: 0 auto 2.5rem auto !important; text-align: center;">
         <span class="text-saffron font-semibold text-xs uppercase tracking-widest">Leadership & Administration</span>
         <h2 class="font-heading text-3xl md:text-4xl text-primary-green">Key Dignitaries & Visionaries</h2>
         <p class="text-text-body text-sm md:text-base">

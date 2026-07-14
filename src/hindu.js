@@ -211,7 +211,7 @@ document.querySelector('#app').innerHTML = `
   <!-- Interactive Package Section -->
   <section id="packages" class="py-16 md:py-24 bg-cream-light border-t border-b border-border">
     <div class="container-main space-y-12">
-      <div class="max-w-2xl mx-auto text-center space-y-3 about-header-container">
+      <div class="max-w-2xl space-y-3 about-header-container" style="margin: 0 auto 2.5rem auto !important; text-align: center;">
         <span class="text-saffron font-semibold text-xs uppercase tracking-widest">Explore Tour Packages</span>
         <h2 class="font-heading text-4xl text-primary-green">Vedic Pilgrimage Packages</h2>
         <p class="text-text-body text-sm md:text-base">
