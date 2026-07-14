@@ -99,26 +99,59 @@ document.querySelector('#app').innerHTML = `
   <!-- Banner / Core Philosophy Section -->
   <section class="bg-white" style="padding-top: 3.75rem; padding-bottom: 3.75rem;">
     <div class="container-main grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center">
-      <div class="lg:col-span-6 relative rounded-2xl overflow-hidden shadow-2xl aspect-[4/3] group">
-        <img src="/images/Diverse-faiths-Shared-heritage-Stronger-local-communities..png" alt="Bihar Heritage and Local Communities" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+      <div class="lg:col-span-6 relative rounded-2xl overflow-hidden shadow-2xl aspect-[4/3] group" id="aboutSlider">
+        <!-- Slides Wrapper -->
+        <div class="flex w-full h-full transition-transform duration-700 ease-in-out" id="aboutSliderTrack">
+          <div class="w-full h-full shrink-0">
+            <img src="/images/slide/cq5dam.web.1280.765.webp" alt="Vedic Bihar slide 1" class="w-full h-full object-cover" />
+          </div>
+          <div class="w-full h-full shrink-0">
+            <img src="/images/slide/cq5dam.web.1280.765 (1).webp" alt="Vedic Bihar slide 2" class="w-full h-full object-cover" />
+          </div>
+          <div class="w-full h-full shrink-0">
+            <img src="/images/slide/cq5dam.web.1280.765 (2).webp" alt="Vedic Bihar slide 3" class="w-full h-full object-cover" />
+          </div>
+          <div class="w-full h-full shrink-0">
+            <img src="/images/slide/cq5dam.web.1280.765 (3).webp" alt="Vedic Bihar slide 4" class="w-full h-full object-cover" />
+          </div>
+          <div class="w-full h-full shrink-0">
+            <img src="/images/slide/cq5dam.web.1280.765 (4).webp" alt="Vedic Bihar slide 5" class="w-full h-full object-cover" />
+          </div>
+          <div class="w-full h-full shrink-0">
+            <img src="/images/slide/cq5dam.web.1280.765 (5).webp" alt="Vedic Bihar slide 6" class="w-full h-full object-cover" />
+          </div>
+          <div class="w-full h-full shrink-0">
+            <img src="/images/slide/cq5dam.web.1280.765 (6).webp" alt="Vedic Bihar slide 7" class="w-full h-full object-cover" />
+          </div>
+        </div>
+        <!-- Dots overlay -->
+        <div class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 z-20" id="aboutSliderDots">
+          <button class="w-2.5 h-2.5 rounded-full bg-white/50 transition-all duration-300 active" aria-label="Go to slide 1"></button>
+          <button class="w-2.5 h-2.5 rounded-full bg-white/50 transition-all duration-300" aria-label="Go to slide 2"></button>
+          <button class="w-2.5 h-2.5 rounded-full bg-white/50 transition-all duration-300" aria-label="Go to slide 3"></button>
+          <button class="w-2.5 h-2.5 rounded-full bg-white/50 transition-all duration-300" aria-label="Go to slide 4"></button>
+          <button class="w-2.5 h-2.5 rounded-full bg-white/50 transition-all duration-300" aria-label="Go to slide 5"></button>
+          <button class="w-2.5 h-2.5 rounded-full bg-white/50 transition-all duration-300" aria-label="Go to slide 6"></button>
+          <button class="w-2.5 h-2.5 rounded-full bg-white/50 transition-all duration-300" aria-label="Go to slide 7"></button>
+        </div>
       </div>
-      <div class="lg:col-span-6 space-y-6">
-        <span class="text-saffron font-semibold text-xs uppercase tracking-widest">Our Initiative | हमारी पहल</span>
-        <h2 class="font-heading text-3xl md:text-4xl text-primary-green">Empowering Communities, Preserving Heritage</h2>
+      <div class="lg:col-span-6 space-y-5">
+        <span class="text-saffron font-semibold text-xs uppercase tracking-widest block">Our Initiative | हमारी पहल</span>
+        <h2 class="font-heading text-3xl md:text-4xl text-primary-green leading-tight">Empowering Communities, Preserving Heritage</h2>
         <p class="text-text-body text-sm md:text-base leading-relaxed">
           Under the guidance of the Government of Bihar, this portal unites pilgrimage management, environmental conservation, and local hospitality to deliver seamless journeys.
         </p>
         <p class="text-text-body text-sm md:text-base leading-relaxed">
           Our initiative helps protect ancient monuments like Bodh Gaya, Pavapuri, Nalanda, and Mundeshwari Hill while driving tourism-led livelihoods for local guides, artisans, and family-run homestays.
         </p>
-        <div class="grid grid-cols-2 gap-4 pt-4 border-t border-border">
+        <div class="grid grid-cols-2 gap-6 pt-5 border-t border-border/80">
           <div>
-            <h4 class="font-heading text-2xl text-saffron">Verified Guides</h4>
-            <p class="text-xs text-text-light">Govt. certified local guides in 4 major languages</p>
+            <h4 class="font-heading text-xl md:text-2xl text-saffron mb-1">Verified Guides</h4>
+            <p class="text-xs text-text-light leading-relaxed">Govt. certified local guides in 4 major languages</p>
           </div>
           <div>
-            <h4 class="font-heading text-2xl text-saffron">Eco Tourism</h4>
-            <p class="text-xs text-text-light">Responsible travel across forest reserves & sacred hills</p>
+            <h4 class="font-heading text-xl md:text-2xl text-saffron mb-1">Eco Tourism</h4>
+            <p class="text-xs text-text-light leading-relaxed">Responsible travel across forest reserves & sacred hills</p>
           </div>
         </div>
       </div>
@@ -143,7 +176,7 @@ document.querySelector('#app').innerHTML = `
         <div class="bg-white rounded-3xl border border-border shadow-md hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col overflow-hidden">
           <div class="aspect-[4/5] w-full bg-cream relative overflow-hidden group">
             <img src="/images/smrat.jpeg" alt="Shri Samrat Choudhary" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500" />
-            <div class="absolute inset-0 bg-gradient-to-t from-primary-green/90 via-primary-green/20 to-transparent flex flex-col justify-end p-6 text-white">
+            <div class="absolute inset-0 bg-gradient-to-t from-primary-green/90 via-primary-green/20 to-transparent flex flex-col justify-end card-overlay-container text-white">
               <span class="text-accent-gold text-[10px] font-bold uppercase tracking-wider">Government of Bihar</span>
               <h3 class="font-heading text-2xl font-bold">Shri Samrat Choudhary</h3>
               <p class="text-xs text-cream/80">Hon'ble Deputy Chief Minister, Bihar</p>
@@ -163,7 +196,7 @@ document.querySelector('#app').innerHTML = `
         <div class="bg-white rounded-3xl border border-border shadow-md hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col overflow-hidden">
           <div class="aspect-[4/5] w-full bg-cream relative overflow-hidden group">
             <img src="/images/anand kishore.jpg" alt="Shri Anand Kishore, IAS" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500" />
-            <div class="absolute inset-0 bg-gradient-to-t from-primary-green/90 via-primary-green/20 to-transparent flex flex-col justify-end p-6 text-white">
+            <div class="absolute inset-0 bg-gradient-to-t from-primary-green/90 via-primary-green/20 to-transparent flex flex-col justify-end card-overlay-container text-white">
               <span class="text-accent-gold text-[10px] font-bold uppercase tracking-wider">Administrative Officer</span>
               <h3 class="font-heading text-2xl font-bold">Shri Anand Kishore, IAS</h3>
               <p class="text-xs text-cream/80">Senior Bureaucrat & Chairman</p>
@@ -183,7 +216,7 @@ document.querySelector('#app').innerHTML = `
         <div class="bg-white rounded-3xl border border-border shadow-md hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col overflow-hidden">
           <div class="aspect-[4/5] w-full bg-cream relative overflow-hidden group">
             <img src="/images/Dr.-Ram-Chandra-Prasad..jpeg" alt="Dr. Ram Chandra Prasad" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500" />
-            <div class="absolute inset-0 bg-gradient-to-t from-primary-green/90 via-primary-green/20 to-transparent flex flex-col justify-end p-6 text-white">
+            <div class="absolute inset-0 bg-gradient-to-t from-primary-green/90 via-primary-green/20 to-transparent flex flex-col justify-end card-overlay-container text-white">
               <span class="text-accent-gold text-[10px] font-bold uppercase tracking-wider">Environment & Forests</span>
               <h3 class="font-heading text-2xl font-bold">Dr. Ram Chandra Prasad</h3>
               <p class="text-xs text-cream/80">Hon'ble Minister for Forests, Bihar</p>
@@ -352,3 +385,53 @@ document.querySelectorAll(revealSelectors.join(',')).forEach((element, index) =>
   }
   observer.observe(element);
 });
+
+// About Page Auto Image Slider
+(function initAboutSlider() {
+  const track = document.getElementById('aboutSliderTrack');
+  const dotsContainer = document.getElementById('aboutSliderDots');
+  if (!track || !dotsContainer) return;
+  const slides = track.children;
+  const dots = dotsContainer.children;
+  let currentIndex = 0;
+  
+  function updateSlider(index) {
+    currentIndex = index;
+    track.style.transform = `translateX(-${currentIndex * 100}%)`;
+    // Update dots
+    for (let i = 0; i < dots.length; i++) {
+      if (i === currentIndex) {
+        dots[i].classList.add('active');
+        dots[i].style.backgroundColor = 'white';
+        dots[i].style.width = '1rem';
+      } else {
+        dots[i].classList.remove('active');
+        dots[i].style.backgroundColor = 'rgba(255, 255, 255, 0.5)';
+        dots[i].style.width = '0.625rem';
+      }
+    }
+  }
+
+  // Add click handlers to dots
+  for (let i = 0; i < dots.length; i++) {
+    dots[i].addEventListener('click', () => {
+      updateSlider(i);
+    });
+  }
+
+  // Auto slide interval
+  let autoPlay = setInterval(() => {
+    let nextIndex = (currentIndex + 1) % slides.length;
+    updateSlider(nextIndex);
+  }, 3000);
+
+  // Pause on hover
+  const slider = document.getElementById('aboutSlider');
+  slider.addEventListener('mouseenter', () => clearInterval(autoPlay));
+  slider.addEventListener('mouseleave', () => {
+    autoPlay = setInterval(() => {
+      let nextIndex = (currentIndex + 1) % slides.length;
+      updateSlider(nextIndex);
+    }, 3000);
+  });
+})();
