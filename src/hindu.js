@@ -211,13 +211,13 @@ document.querySelector('#app').innerHTML = `
   <!-- Interactive Package Section -->
   <section id="packages" class="py-16 md:py-24 bg-cream-light border-t border-b border-border">
     <div class="container-main space-y-12">
-      <div class="max-w-2xl mx-auto text-center space-y-3">
+      <div class="max-w-2xl mx-auto text-center space-y-3 about-header-container">
         <span class="text-saffron font-semibold text-xs uppercase tracking-widest">Explore Tour Packages</span>
         <h2 class="font-heading text-4xl text-primary-green">Vedic Pilgrimage Packages</h2>
         <p class="text-text-body text-sm md:text-base">
           Choose from our thoughtfully curated packages. Each includes comfortable local transport, verified guides, hotel accommodations, and ritual assistance.
         </p>
-        <div class="w-16 h-0.5 bg-saffron mx-auto mt-4"></div>
+        <div class="choti-line"></div>
       </div>
 
       <!-- Packages Grid -->
@@ -230,7 +230,7 @@ document.querySelector('#app').innerHTML = `
             <h3 class="font-heading text-3xl font-bold">7 Days Package</h3>
             <p class="text-xs text-cream/70">Trace the footprints of Lord Ram & Goddess Sita</p>
           </div>
-          <div class="p-8 flex-1 flex flex-col justify-between space-y-6">
+          <div class="card-text-container-large flex-1 flex flex-col justify-between space-y-6">
             <div class="space-y-5">
               <div class="flex items-baseline gap-2">
                 <span class="text-3xl font-bold text-saffron">₹16,499</span>
@@ -275,7 +275,7 @@ document.querySelector('#app').innerHTML = `
             <h3 class="font-heading text-3xl font-bold">8 Days Package</h3>
             <p class="text-xs text-cream/70">Ancestral homage, ancient shrines & sacred hill treks</p>
           </div>
-          <div class="p-8 flex-1 flex flex-col justify-between space-y-6">
+          <div class="card-text-container-large flex-1 flex flex-col justify-between space-y-6">
             <div class="space-y-5">
               <div class="flex items-baseline gap-2">
                 <span class="text-3xl font-bold text-saffron">₹19,999</span>
@@ -320,7 +320,7 @@ document.querySelector('#app').innerHTML = `
             <h3 class="font-heading text-3xl font-bold">10 Days Package</h3>
             <p class="text-xs text-cream/70">The ultimate pilgrimage across Northern & Southern Bihar</p>
           </div>
-          <div class="p-8 flex-1 flex flex-col justify-between space-y-6">
+          <div class="card-text-container-large flex-1 flex flex-col justify-between space-y-6">
             <div class="space-y-5">
               <div class="flex items-baseline gap-2">
                 <span class="text-3xl font-bold text-saffron">₹24,999</span>

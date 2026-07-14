@@ -1850,3 +1850,24 @@ h1, h2, h3, h4, h5, h6 {
     display: none;
   }
 }
+
+/* Custom About and Hindu page helper classes */
+.about-header-container {
+  margin-bottom: 2.5rem !important;
+}
+
+.choti-line {
+  width: 4rem;
+  height: 2px;
+  background-color: #92351B; /* Saffron */
+  margin: 1rem auto 0 auto !important;
+}
+
+.card-text-container {
+  padding: 1.5rem !important;
+}
+
+.card-text-container-large {
+  padding: 2rem !important;
+}
+

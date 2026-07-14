@@ -128,13 +128,13 @@ document.querySelector('#app').innerHTML = `
   <!-- Leadership Profiles Section -->
   <section class="bg-cream-light border-t border-b border-border" style="padding-top: 3.75rem; padding-bottom: 3.75rem;">
     <div class="container-main space-y-16">
-      <div class="max-w-2xl mx-auto text-center space-y-3">
+      <div class="max-w-2xl mx-auto text-center space-y-3 about-header-container">
         <span class="text-saffron font-semibold text-xs uppercase tracking-widest">Leadership & Administration</span>
         <h2 class="font-heading text-3xl md:text-4xl text-primary-green">Key Dignitaries & Visionaries</h2>
         <p class="text-text-body text-sm md:text-base">
           Meet the leaders steering the preservation of Bihar's rich heritage and natural ecosystems.
         </p>
-        <div class="w-16 h-0.5 bg-saffron mx-auto mt-4"></div>
+        <div class="choti-line"></div>
       </div>
 
       <!-- Leaders Grid -->
@@ -149,7 +149,7 @@ document.querySelector('#app').innerHTML = `
               <p class="text-xs text-cream/80">Hon'ble Deputy Chief Minister, Bihar</p>
             </div>
           </div>
-          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+          <div class="card-text-container flex-1 flex flex-col justify-between space-y-4">
             <p class="text-xs md:text-sm text-text-body leading-relaxed">
               Dr. Samrat Choudhary is a prominent political leader guiding Bihar's socio-economic growth. He is actively spearheading infrastructure updates, tourism corridor developments, and public initiatives to place Bihar's historical circuits on the international map.
             </p>
@@ -169,7 +169,7 @@ document.querySelector('#app').innerHTML = `
               <p class="text-xs text-cream/80">Senior Bureaucrat & Chairman</p>
             </div>
           </div>
-          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+          <div class="card-text-container flex-1 flex flex-col justify-between space-y-4">
             <p class="text-xs md:text-sm text-text-body leading-relaxed">
               Shri Anand Kishore is a distinguished IAS officer known for executing massive public reforms and urban renewal initiatives in Bihar. He guides the strategic deployment of digitized travel services, public infrastructure, and administrative logistics across the state.
             </p>
@@ -189,7 +189,7 @@ document.querySelector('#app').innerHTML = `
               <p class="text-xs text-cream/80">Hon'ble Minister for Forests, Bihar</p>
             </div>
           </div>
-          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+          <div class="card-text-container flex-1 flex flex-col justify-between space-y-4">
             <p class="text-xs md:text-sm text-text-body leading-relaxed">
               Dr. Ram Chandra Prasad leads the Department of Environment, Forest, and Climate Change in Bihar. He steers efforts in eco-tourism, tree planting campaigns, biodiversity conservation, and the development of nature sanctuaries on Bihar's sacred hills.
             </p>
