@@ -81,45 +81,171 @@ document.querySelector('#app').innerHTML = `
     <div class="relative min-h-[480px] md:min-h-[540px] lg:min-h-[580px]">
       <!-- Background Image -->
       <div class="absolute inset-0">
-        <img src="/images/herobg.png" 
+        <img src="/images/herobanner.png" 
              alt="Bihar Temple Architecture" 
              class="w-full h-full object-cover" />
       </div>
       
       <!-- Hero Content -->
-      <div class="relative container-main py-16 md:py-24 lg:py-28 flex items-center min-h-[480px] md:min-h-[540px]">
-        <div class="max-w-xl hero-copy">
-          <h1 class="font-heading text-4xl md:text-5xl lg:text-[3.5rem] text-primary-green mb-4 leading-tight">
-            Many faiths.<br>
-            One timeless Bihar.
+      <div class="relative container-main py-16 md:py-24 lg:py-28 flex items-center min-h-[480px] md:min-h-[540px] lg:min-h-[580px]">
+        <div class="max-w-xl hero-copy text-left">
+          <h1 class="font-heading text-4xl md:text-5xl lg:text-[4rem] text-primary-green mb-4 leading-none text-left">
+            Discover Bihar's<br>
+            <span class="text-primary-green-dark font-semibold inline-flex items-center whitespace-nowrap">
+              Wild Side.
+              <svg class="w-8 h-8 text-primary-green ml-1 shrink-0" fill="currentColor" viewBox="0 0 24 24" style="transform: rotate(15deg); display: inline-block;"><path d="M17,8C8,10 5.9,16.17 3.82,21.34L5.71,22L6.58,20C9.58,20 17.6,18 20.36,10.38C21.68,6.72 19.33,2.65 17,2C19,5 18,7 17,8Z"/></svg>
+            </span>
           </h1>
-          <p class="text-text-body text-sm md:text-base mb-7 max-w-md leading-relaxed">
-            Discover sacred journeys, ancient heritage, living traditions and the stories that connect you to your roots.
+          <h3 class="text-primary-green font-body font-bold text-lg md:text-xl tracking-wide mb-3 text-left">Forests. Wildlife. Rivers. Nature.</h3>
+          <p class="text-text-body text-sm md:text-base mb-16 max-w-lg leading-relaxed text-left">
+            Explore Bihar's breathtaking forests, tiger reserves, wildlife sanctuaries, river ecosystems and nature safaris through thoughtfully curated ecotourism experiences.
           </p>
           <div class="hero-actions flex flex-wrap gap-3">
-            <a href="#" class="btn-saffron rounded px-5 py-2.5 text-sm">Explore Faith Journeys</a>
-            <a href="#" class="btn-outline rounded px-5 py-2.5 text-sm">Find Your Roots</a>
+            <a href="#" class="btn-primary rounded text-xs px-5 py-2.5 shadow-sm">Explore Ecotourism Packages</a>
+            <a href="#" class="btn-outline bg-white rounded text-xs px-5 py-2.5 shadow-sm">Plan Your Nature Journey</a>
           </div>
+          
+          <!-- Hero Badges (Green Glass Effect) -->
           <div class="hero-badges">
-            <div class="hero-badge">
-              <svg class="w-4 h-4 text-accent-gold shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
-              <span>Verified Local Guides</span>
+            <!-- USP 1 -->
+            <div class="hero-badge" style="background: rgba(15, 42, 28, 0.85); border: 1px solid rgba(255, 255, 255, 0.1); color: white; backdrop-filter: blur(8px);">
+              <svg class="w-4 h-4 text-accent-gold shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path d="M5 19a4 4 0 0 1-4-4V9a4 4 0 0 1 4-4h2a4 4 0 0 1 4 4v6a4 4 0 0 1-4 4H5zm14 0a4 4 0 0 0 4-4V9a4 4 0 0 0-4-4h-2a4 4 0 0 0-4 4v6a4 4 0 0 0 4 4h2zM9 12h6"/></svg>
+              <div class="text-left leading-none">
+                <span class="block text-[11px] font-bold">Certified</span>
+                <span class="block text-[9px] text-white/80">Nature Guides</span>
+              </div>
             </div>
-            <div class="hero-badge">
-              <svg class="w-4 h-4 text-accent-gold shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
-              <span>24×7 Travel Assistance</span>
+            <!-- USP 2 -->
+            <div class="hero-badge" style="background: rgba(15, 42, 28, 0.85); border: 1px solid rgba(255, 255, 255, 0.1); color: white; backdrop-filter: blur(8px);">
+              <svg class="w-4 h-4 text-accent-gold shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM3.6 9h16.8M3.6 15h16.8M12 3a15.3 15.3 0 0 1 4 9 15.3 15.3 0 0 1-4 9 15.3 15.3 0 0 1-4-9 15.3 15.3 0 0 1 4-9z"/></svg>
+              <div class="text-left leading-none">
+                <span class="block text-[11px] font-bold">Responsible</span>
+                <span class="block text-[9px] text-white/80">Wildlife Tourism</span>
+              </div>
             </div>
-            <div class="hero-badge">
-              <svg class="w-4 h-4 text-accent-gold shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-              <span>Subsidy/Eligibility Guidance</span>
+            <!-- USP 3 -->
+            <div class="hero-badge" style="background: rgba(15, 42, 28, 0.85); border: 1px solid rgba(255, 255, 255, 0.1); color: white; backdrop-filter: blur(8px);">
+              <svg class="w-4 h-4 text-accent-gold shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3C13 6.9 11.8 6.5 11 6.5H5c-.8 0-1.5.5-1.8 1.2L2 11v5c0 .6.4 1 1 1h2m10 0h2m-6 0h2M7.5 19.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zm9 0a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/></svg>
+              <div class="text-left leading-none">
+                <span class="block text-[11px] font-bold">Guided</span>
+                <span class="block text-[9px] text-white/80">Jungle Safaris</span>
+              </div>
             </div>
-            <div class="hero-badge">
-              <svg class="w-4 h-4 text-accent-gold shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg>
-              <span>Transparent Packages</span>
+            <!-- USP 4 -->
+            <div class="hero-badge" style="background: rgba(15, 42, 28, 0.85); border: 1px solid rgba(255, 255, 255, 0.1); color: white; backdrop-filter: blur(8px);">
+              <svg class="w-4 h-4 text-accent-gold shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10zM12 8l3 3m-3-3l-3 3m3-3v8"/></svg>
+              <div class="text-left leading-none">
+                <span class="block text-[11px] font-bold">Sustainable</span>
+                <span class="block text-[9px] text-white/80">Eco Experiences</span>
+              </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- Explore Bihar's Top Forest & Ecotourism Destinations -->
+  <section class="ecotourism-destinations pt-20 pb-20 md:pt-24 md:pb-24 bg-[#f7f4ee]">
+    <div class="container-main">
+      
+      <div class="text-center pilgrimage-heading mb-12">
+        <div class="pilgrimage-title-row">
+          <span></span>
+          <h2 class="font-heading text-3xl md:text-4xl text-primary-green">Explore Bihar's Top Forest & Ecotourism Destinations</h2>
+          <span></span>
+        </div>
+        <p class="text-text-light text-sm md:text-base mt-3">Thoughtfully curated eco journeys across Bihar’s most spectacular forests, wildlife sanctuaries and river ecosystems.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 items-stretch">
+        
+        <!-- Card 1 -->
+        <div class="bg-white rounded-2xl p-5 border border-black/5 shadow-md hover:shadow-lg transition-shadow flex flex-col h-full justify-between">
+          <div class="flex-1 flex flex-col justify-between mb-5">
+            <div>
+              <div class="relative rounded-xl overflow-hidden aspect-[4/3] mb-4 shadow-sm">
+                <img src="https://images.unsplash.com/photo-1575550959106-5a7defe28b56?auto=format&fit=crop&w=600&q=80" alt="Valmiki Tiger Reserve" class="w-full h-full object-cover">
+                <span class="absolute bottom-3 left-3 bg-[#1d5c3e] text-white text-[9px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">3-5 Day Safari</span>
+              </div>
+              <h3 class="font-heading text-lg text-primary-green font-semibold mb-2 leading-snug">Valmiki Tiger Reserve</h3>
+            </div>
+            <p class="text-text-body text-xs md:text-sm leading-relaxed" style="display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis; min-h: 3.85rem;">
+              Tiger safaris, birdwatching, river trails, forest camping and rich Himalayan foothill biodiversity.
+            </p>
+          </div>
+          <a href="#" class="w-full inline-flex items-center justify-center bg-[#0f2a1c] hover:bg-[#081810] text-[#faf7f2] py-2.5 rounded-lg text-xs font-bold transition-colors">Explore Packages</a>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-white rounded-2xl p-5 border border-black/5 shadow-md hover:shadow-lg transition-shadow flex flex-col h-full justify-between">
+          <div class="flex-1 flex flex-col justify-between mb-5">
+            <div>
+              <div class="relative rounded-xl overflow-hidden aspect-[4/3] mb-4 shadow-sm">
+                <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80" alt="Rajgir Nature Safari" class="w-full h-full object-cover">
+                <span class="absolute bottom-3 left-3 bg-[#1d5c3e] text-white text-[9px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">2-3 Day Experience</span>
+              </div>
+              <h3 class="font-heading text-lg text-primary-green font-semibold mb-2 leading-snug">Rajgir Nature Safari</h3>
+            </div>
+            <p class="text-text-body text-xs md:text-sm leading-relaxed" style="display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis; min-h: 3.85rem;">
+              Adventure meets nature with glass skywalk, ropeway, scenic forests, cycling trails and eco recreation.
+            </p>
+          </div>
+          <a href="#" class="w-full inline-flex items-center justify-center bg-[#0f2a1c] hover:bg-[#081810] text-[#faf7f2] py-2.5 rounded-lg text-xs font-bold transition-colors">Explore Packages</a>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-white rounded-2xl p-5 border border-black/5 shadow-md hover:shadow-lg transition-shadow flex flex-col h-full justify-between">
+          <div class="flex-1 flex flex-col justify-between mb-5">
+            <div>
+              <div class="relative rounded-xl overflow-hidden aspect-[4/3] mb-4 shadow-sm">
+                <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=600&q=80" alt="Bhimbandh Wildlife Sanctuary" class="w-full h-full object-cover">
+                <span class="absolute bottom-3 left-3 bg-[#1d5c3e] text-white text-[9px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">3-4 Day Escape</span>
+              </div>
+              <h3 class="font-heading text-lg text-primary-green font-semibold mb-2 leading-snug">Bhimbandh Wildlife Sanctuary</h3>
+            </div>
+            <p class="text-text-body text-xs md:text-sm leading-relaxed" style="display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis; min-h: 3.85rem;">
+              Discover natural hot springs, dense forests, trekking routes and abundant wildlife in one of Bihar's oldest protected forests.
+            </p>
+          </div>
+          <a href="#" class="w-full inline-flex items-center justify-center bg-[#0f2a1c] hover:bg-[#081810] text-[#faf7f2] py-2.5 rounded-lg text-xs font-bold transition-colors">Explore Packages</a>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="bg-white rounded-2xl p-5 border border-black/5 shadow-md hover:shadow-lg transition-shadow flex flex-col h-full justify-between">
+          <div class="flex-1 flex flex-col justify-between mb-5">
+            <div>
+              <div class="relative rounded-xl overflow-hidden aspect-[4/3] mb-4 shadow-sm">
+                <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=600&q=80" alt="Vikramshila Dolphin Sanctuary" class="w-full h-full object-cover">
+                <span class="absolute bottom-3 left-3 bg-[#1d5c3e] text-white text-[9px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">2-3 Day Safari</span>
+              </div>
+              <h3 class="font-heading text-lg text-primary-green font-semibold mb-2 leading-snug">Vikramshila Dolphin Sanctuary</h3>
+            </div>
+            <p class="text-text-body text-xs md:text-sm leading-relaxed" style="display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis; min-h: 3.85rem;">
+              Witness the endangered Gangetic Dolphins, enjoy river cruises, birdwatching and breathtaking Ganga landscapes.
+            </p>
+          </div>
+          <a href="#" class="w-full inline-flex items-center justify-center bg-[#0f2a1c] hover:bg-[#081810] text-[#faf7f2] py-2.5 rounded-lg text-xs font-bold transition-colors">Explore Packages</a>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="bg-white rounded-2xl p-5 border border-black/5 shadow-md hover:shadow-lg transition-shadow flex flex-col h-full justify-between">
+          <div class="flex-1 flex flex-col justify-between mb-5">
+            <div>
+              <div class="relative rounded-xl overflow-hidden aspect-[4/3] mb-4 shadow-sm">
+                <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=600&q=80" alt="Kaimur Wildlife Sanctuary" class="w-full h-full object-cover">
+                <span class="absolute bottom-3 left-3 bg-[#1d5c3e] text-white text-[9px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">3-5 Day Wilderness</span>
+              </div>
+              <h3 class="font-heading text-lg text-primary-green font-semibold mb-2 leading-snug">Kaimur Wildlife Sanctuary</h3>
+            </div>
+            <p class="text-text-body text-xs md:text-sm leading-relaxed" style="display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis; min-h: 3.85rem;">
+              Explore waterfalls, forests, caves, scenic valleys and wildlife across Bihar's largest forest landscape.
+            </p>
+          </div>
+          <a href="#" class="w-full inline-flex items-center justify-center bg-[#0f2a1c] hover:bg-[#081810] text-[#faf7f2] py-2.5 rounded-lg text-xs font-bold transition-colors">Explore Packages</a>
+        </div>
+      </div>
+
     </div>
   </section>
 
@@ -191,6 +317,41 @@ document.querySelector('#app').innerHTML = `
     </div>
   </section>
 
+  <!-- Visual Inspiration Section -->
+  <section class="inspiration-section bg-cream-light" style="padding-top: 3.75rem; padding-bottom: 3.75rem;">
+    <div class="container-main">
+      <div class="text-center mb-10 md:mb-12">
+        <h2 class="font-heading text-3xl md:text-4xl text-primary-green mb-3">Visual Inspiration</h2>
+        <p class="text-text-light text-sm md:text-base">Experience the sacred aura and timeless beauty of Bihar through travel stories.</p>
+      </div>
+
+      <div class="grid grid-cols-2 lg:grid-cols-5 gap-4 md:gap-6 mt-10 md:mt-14">
+        <!-- Video 1 -->
+        <div class="relative overflow-hidden rounded-2xl aspect-[3/4] shadow-sm border border-border bg-white">
+          <iframe src="https://www.instagram.com/reel/DaSmLavo0-Q/embed" class="absolute w-full" style="height: calc(100% + 165px); top: -78px; left: 0;" allowtransparency="true" frameborder="0" scrolling="no" loading="lazy"></iframe>
+        </div>
+        <!-- Video 2 -->
+        <div class="relative overflow-hidden rounded-2xl aspect-[3/4] shadow-sm border border-border bg-white">
+          <iframe src="https://www.instagram.com/reel/DZqyXlDvjve/embed" class="absolute w-full" style="height: calc(100% + 165px); top: -78px; left: 0;" allowtransparency="true" frameborder="0" scrolling="no" loading="lazy"></iframe>
+        </div>
+        <!-- Video 3 -->
+        <div class="relative overflow-hidden rounded-2xl aspect-[3/4] shadow-sm border border-border bg-white">
+          <iframe src="https://www.instagram.com/reel/DXec1dsjxFN/embed" class="absolute w-full" style="height: calc(100% + 165px); top: -78px; left: 0;" allowtransparency="true" frameborder="0" scrolling="no" loading="lazy"></iframe>
+        </div>
+        <!-- Video 4 -->
+        <div class="relative overflow-hidden rounded-2xl aspect-[3/4] shadow-sm border border-border bg-white">
+          <iframe src="https://www.instagram.com/reel/DZSnrlxI68k/embed" class="absolute w-full" style="height: calc(100% + 165px); top: -78px; left: 0;" allowtransparency="true" frameborder="0" scrolling="no" loading="lazy"></iframe>
+        </div>
+        <!-- Video 5 -->
+        <div class="col-span-2 lg:col-span-1 flex justify-center w-full">
+          <div class="relative overflow-hidden rounded-2xl aspect-[3/4] shadow-sm border border-border bg-white w-full max-w-[calc(50%-0.5rem)] lg:max-w-none">
+            <iframe src="https://www.instagram.com/reel/DYCmAm7T59d/embed" class="absolute w-full" style="height: calc(100% + 165px); top: -78px; left: 0;" allowtransparency="true" frameborder="0" scrolling="no" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Beyond pilgrimage, discover a civilisation -->
   <section class="heritage-section bg-cream-light">
     <div class="container-main">
@@ -243,43 +404,77 @@ document.querySelector('#app').innerHTML = `
     </div>
   </section>
 
-  <!-- 24×7 Travel Assistance Banner -->
-  <section class="assistance-section bg-white">
+  <!-- 24×7 Ecotourism Assistance & Forest Permits Section -->
+  <section class="assistance-section bg-[#faf8f5] py-12 md:py-16">
     <div class="container-main">
-      <div class="assistance-panel">
-        <div class="assistance-split">
-          <div class="assistance-left">
-            <svg class="assistance-main-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4" d="M18 10a6 6 0 10-12 0v3a3 3 0 003 3h1m8-6v4a4 4 0 01-4 4h-2m6-8h1a2 2 0 012 2v1a2 2 0 01-2 2h-1M6 10H5a2 2 0 00-2 2v1a2 2 0 002 2h1"/></svg>
-            <div class="assistance-copy">
-              <h3>24×7 Bihar Travel Assistance</h3>
-              <p>Help before, during and after your journey.</p>
-              <div class="assistance-actions">
-                <a href="#">Call support</a>
-                <a href="#">Chat with us</a>
+      <div class="assistance-panel overflow-hidden border border-black/5 rounded-2xl bg-white shadow-sm">
+        
+        <!-- Attached Split Boxes -->
+        <div class="grid grid-cols-1 lg:grid-cols-2">
+          
+          <!-- Left Box: Ecotourism Assistance -->
+          <div class="relative overflow-hidden flex flex-col md:flex-row items-center gap-6 text-white min-h-[240px]" style="background-image: url('/24×7-Bihar-Ecotourism-Assistance.png'); background-size: cover; background-position: center; padding: 36px 40px;">
+            <div class="shrink-0 flex items-center justify-center">
+              <!-- Headphones Icon (White) -->
+              <svg class="w-16 h-16 text-white/90" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.25"><path stroke-linecap="round" stroke-linejoin="round" d="M18.75 12c0 3.728-3.022 6.75-6.75 6.75v-13.5C15.728 5.25 18.75 8.272 18.75 12zm0 0h1.5a.75.75 0 01.75.75v3a.75.75 0 01-.75.75h-1.5m-13.5-4.5c0-3.728 3.022-6.75 6.75-6.75v13.5c-3.728 0-6.75-3.022-6.75-6.75zm0 0h-1.5a.75.75 0 00-.75.75v3a.75.75 0 00.75.75h1.5"/></svg>
+            </div>
+            <div class="flex flex-col justify-center flex-1">
+              <div>
+                <h3 class="font-heading text-2xl md:text-3xl font-normal leading-tight text-white mb-2">24×7 Bihar Ecotourism Assistance</h3>
+                <p class="text-xs md:text-sm text-white/80 leading-relaxed mb-6">Helping you before, during and after your adventure.</p>
+              </div>
+              <div class="flex flex-wrap gap-4">
+                <a href="#" class="inline-flex items-center justify-center bg-[#faf7f2]/95 hover:bg-white text-primary-green rounded-lg text-sm font-medium transition-colors shadow-sm" style="padding: 10px 22px;">Call Support</a>
+                <a href="#" class="inline-flex items-center justify-center bg-transparent border border-white/60 hover:bg-white/10 text-white rounded-lg text-sm font-medium transition-all" style="padding: 10px 22px;">Chat with Nature Expert</a>
               </div>
             </div>
           </div>
 
-          <div class="assistance-right">
-            <svg class="benefit-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.35" d="M6 2.75h8l4 4v14.5H6zM14 2.75V7h4M8.5 10h4.5M8.5 13h3M15.5 12.5a3.75 3.75 0 110 7.5 3.75 3.75 0 010-7.5zm-1.1 5.2l2.2-3.4m-2.05.2h.01m1.98 3h.01"/></svg>
-            <div class="benefit-copy">
-              <h3>Travel Benefits & Subsidy Guidance</h3>
-              <p>Check eligibility under applicable<br>government tourism schemes</p>
-              <div class="benefit-steps">
-                <span>View scheme</span>
-                <b>→</b>
-                <span>Check eligibility</span>
-                <b>→</b>
-                <span>Submit required details</span>
+          <!-- Right Box: Forest Permits & Travel Guidance -->
+          <div class="relative overflow-hidden flex flex-col md:flex-row items-center gap-6 text-[#0f2a1c] min-h-[240px]" style="background-image: url('/Forest-Permits-Travel-Guidance.png'); background-size: cover; background-position: center; padding: 36px 40px; border-top: 1px solid rgba(0,0,0,0.05); lg:border-top: 0; lg:border-left: 1px solid rgba(0,0,0,0.05);">
+            <div class="shrink-0 flex items-center justify-center">
+              <!-- Document / Permit Icon -->
+              <svg class="w-16 h-16 text-[#0f2a1c]/90" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.25"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"/></svg>
+            </div>
+            <div class="flex flex-col justify-center flex-1">
+              <div>
+                <h3 class="font-heading text-2xl md:text-3xl font-normal leading-tight text-[#0f2a1c] mb-2">Forest Permits & Travel Guidance</h3>
+                <p class="text-xs md:text-sm text-[#0f2a1c]/80 leading-relaxed mb-4">Check permits, safari bookings, timings and seasonal recommendations.</p>
+                
+                <!-- Checklist of items -->
+                <div class="grid grid-cols-2 gap-x-4 gap-y-2 text-[11px] md:text-xs text-[#0f2a1c] font-medium mb-6">
+                  <div class="flex items-center gap-1.5">
+                    <svg class="w-3.5 h-3.5 text-[#0f2a1c] shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/></svg>
+                    <span>Park timings</span>
+                  </div>
+                  <div class="flex items-center gap-1.5">
+                    <svg class="w-3.5 h-3.5 text-[#0f2a1c] shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/></svg>
+                    <span>Seasonal Bookings</span>
+                  </div>
+                  <div class="flex items-center gap-1.5">
+                    <svg class="w-3.5 h-3.5 text-[#0f2a1c] shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/></svg>
+                    <span>Safari bookings</span>
+                  </div>
+                  <div class="flex items-center gap-1.5">
+                    <svg class="w-3.5 h-3.5 text-[#0f2a1c] shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/></svg>
+                    <span>Entry information & permits</span>
+                  </div>
+                </div>
               </div>
-              <a href="#" class="eligibility-btn">Check eligibility</a>
+              <div>
+                <a href="#" class="inline-flex items-center justify-center bg-[#0f2a1c] hover:bg-[#081810] text-[#faf7f2] rounded-lg text-sm font-semibold transition-colors shadow-sm" style="padding: 10px 24px;">Plan My Eco Trip</a>
+              </div>
             </div>
           </div>
+
         </div>
-        <div class="assistance-note">
-          <span>i</span>
-          <p>Benefits and subsidies are subject to current scheme rules, eligibility, budget availability and official approval.</p>
+
+        <!-- Bottom Warning/Info Note Banner -->
+        <div class="flex items-center justify-center gap-3 py-3 px-4 text-center bg-[#faf7f2]/95 border-t border-black/5 text-[#4a3f35] text-xs md:text-sm">
+          <div class="w-5 h-5 rounded-full border border-[#c49a3c] flex items-center justify-center text-[#9c6f2a] font-bold text-[10px] shrink-0">i</div>
+          <p class="leading-relaxed">Benefits and subsidies are subject to current scheme rules, eligibility, budget availability and official approval.</p>
         </div>
+
       </div>
     </div>
   </section>
@@ -789,3 +984,109 @@ document.querySelectorAll(revealSelectors.join(',')).forEach((element, index) =>
   }
   observer.observe(element);
 });
+
+// Background Forest Ambience Audio
+(function initBackgroundAudio() {
+  const audioFile = '/audiopapkin-forest-ambience-296528.mp3';
+  const bgAudio = new Audio(audioFile);
+  bgAudio.loop = true;
+  bgAudio.volume = 0.2; // Default 20% volume as requested
+
+  let isPlaying = false;
+  let hasInteracted = false;
+
+  // Create floating toggle button container dynamically
+  const audioContainer = document.createElement('div');
+  audioContainer.id = 'floatingAudioContainer';
+  audioContainer.className = 'fixed bottom-6 left-6 z-50 flex items-center bg-primary-green text-white rounded-full shadow-lg border border-white/10 p-1 transition-all duration-300 hover:w-[150px] w-12 h-12 overflow-hidden';
+  audioContainer.style.willChange = 'width';
+
+  // Toggle button itself
+  const audioBtn = document.createElement('button');
+  audioBtn.id = 'floatingAudioBtn';
+  audioBtn.className = 'w-10 h-10 rounded-full flex items-center justify-center cursor-pointer shrink-0 transition-transform active:scale-95';
+  audioBtn.style.background = 'transparent';
+  audioBtn.style.border = 'none';
+  audioBtn.style.outline = 'none';
+  audioBtn.style.padding = '0';
+  audioBtn.setAttribute('aria-label', 'Toggle Forest Ambience');
+  
+  // Mute state icon (speaker with slash)
+  const muteIcon = `
+    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 9.75L19.5 12m0 0l2.25 2.25M19.5 12l2.25-2.25M19.5 12l-2.25 2.25m-10.5-6L4.5 9H2.25A.75.75 0 001.5 9.75v4.5c0 .414.336.75.75.75h2.25l2.25 2.25m6.5-12.75V21" />
+    </svg>
+  `;
+  
+  // Playing state icon (speaker with waves)
+  const playIcon = `
+    <svg class="w-6 h-6 text-accent-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19.113 5.636a9 9 0 010 12.728M16.463 8.288a5.25 5.25 0 010 7.424M6.75 8.25l4.72-4.72a.75.75 0 011.28.53v15.88a.75.75 0 01-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.01 9.01 0 012.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75z" />
+    </svg>
+  `;
+
+  audioBtn.innerHTML = muteIcon;
+  audioContainer.appendChild(audioBtn);
+
+  // Volume slider container
+  const sliderWrapper = document.createElement('div');
+  sliderWrapper.className = 'flex items-center justify-center pl-1 pr-3 shrink-0';
+  sliderWrapper.innerHTML = `
+    <input type="range" id="audioVolumeSlider" min="0" max="1" step="0.05" value="0.2" class="w-20 cursor-pointer accent-accent-gold" style="height: 4px; background: rgba(255,255,255,0.25); border-radius: 2px; -webkit-appearance: none; outline: none;">
+  `;
+  audioContainer.appendChild(sliderWrapper);
+
+  document.body.appendChild(audioContainer);
+
+  function startAudio() {
+    if (hasInteracted) return;
+    hasInteracted = true;
+    bgAudio.play()
+      .then(() => {
+        isPlaying = true;
+        audioBtn.innerHTML = playIcon;
+      })
+      .catch(err => {
+        console.log('Autoplay blocked, waiting for click/scroll', err);
+        hasInteracted = false;
+      });
+  }
+
+  // Play on first interaction (scroll, click, touch)
+  window.addEventListener('scroll', startAudio, { once: true });
+  window.addEventListener('click', startAudio, { once: true });
+  window.addEventListener('touchstart', startAudio, { once: true });
+
+  // Toggle button functionality
+  audioBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    if (!hasInteracted) {
+      hasInteracted = true;
+    }
+    if (isPlaying) {
+      bgAudio.pause();
+      isPlaying = false;
+      audioBtn.innerHTML = muteIcon;
+    } else {
+      bgAudio.play()
+        .then(() => {
+          isPlaying = true;
+          audioBtn.innerHTML = playIcon;
+        })
+        .catch(err => console.log('Error playing audio:', err));
+    }
+  });
+
+  // Volume slider listener
+  const slider = audioContainer.querySelector('#audioVolumeSlider');
+  slider.addEventListener('input', (e) => {
+    bgAudio.volume = e.target.value;
+    if (e.target.value > 0 && !isPlaying) {
+      bgAudio.play()
+        .then(() => {
+          isPlaying = true;
+          audioBtn.innerHTML = playIcon;
+        });
+    }
+  });
+})();
