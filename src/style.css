@@ -170,6 +170,179 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 2.5rem !important;
 }
 
+/* Ecotourism destination section */
+.ecotourism-destinations {
+  padding-top: 3.75rem;
+  padding-bottom: 3.75rem;
+}
+
+.eco-destinations-heading {
+  margin-bottom: 2rem !important;
+}
+
+.eco-destinations-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+@media (min-width: 640px) {
+  .eco-destinations-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .eco-destinations-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1280px) {
+  .eco-destinations-grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+}
+
+.eco-destination-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 29rem;
+  overflow: hidden;
+  border: 1px solid rgba(224, 216, 200, 0.95);
+  border-radius: 1rem;
+  background:
+    radial-gradient(circle at 8% 8%, rgba(196, 154, 60, 0.12), transparent 6rem),
+    radial-gradient(circle at 92% 8%, rgba(196, 154, 60, 0.09), transparent 6rem),
+    var(--color-cream-light);
+  box-shadow: 0 1rem 2.5rem rgba(60, 42, 24, 0.08);
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.35s ease;
+}
+
+.eco-destination-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 1.25rem 2.75rem rgba(60, 42, 24, 0.13);
+}
+
+.eco-destination-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 5.35rem;
+  padding: 0.75rem 0.8rem 0.55rem;
+}
+
+.eco-destination-card h3 {
+  color: var(--color-primary-green);
+  font-family: var(--font-heading);
+  font-size: 1.45rem;
+  font-weight: 600;
+  line-height: 1.08;
+  text-align: center;
+}
+
+.eco-destination-image {
+  position: relative;
+  z-index: 1;
+  height: 12.5rem;
+  overflow: hidden;
+  border-top: 1px solid rgba(224, 216, 200, 0.8);
+  border-bottom: 1px solid rgba(224, 216, 200, 0.8);
+}
+
+.eco-destination-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.eco-destination-card:hover .eco-destination-image img {
+  transform: scale(1.05);
+}
+
+.eco-journey-pill {
+  position: relative;
+  z-index: 3;
+  align-self: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 10.75rem;
+  min-height: 2.35rem;
+  margin-top: -1.2rem;
+  padding: 0.35rem 1rem;
+  border: 1px solid rgba(224, 216, 200, 0.95);
+  border-radius: 999px;
+  background: rgba(250, 247, 242, 0.97);
+  color: var(--color-text-body);
+  font-family: var(--font-heading);
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1;
+  box-shadow: 0 0.45rem 1rem rgba(60, 42, 24, 0.08);
+}
+
+.eco-destination-description {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 6rem;
+  padding: 1rem 1.1rem 0.85rem;
+}
+
+.eco-destination-description p {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  color: var(--color-text-body);
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.55;
+  text-align: center;
+}
+
+.eco-destination-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3rem;
+  margin: 0 1.1rem 1.1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.42rem;
+  background: var(--color-primary-green);
+  color: white;
+  font-family: var(--font-heading);
+  font-size: 1.08rem;
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.22), 0 0.45rem 1rem rgba(60, 42, 24, 0.1);
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.eco-destination-cta:hover {
+  background: var(--color-primary-green-dark);
+  transform: translateY(-1px);
+}
+
+@media (max-width: 768px) {
+  .ecotourism-destinations {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .eco-destination-image {
+    height: 13rem;
+  }
+}
+
 .hero-copy {
   padding: 1rem 0;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.55);
@@ -432,7 +605,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .heritage-section {
-  padding-top: 3.75rem;
+  padding-top: 0.75rem;
   padding-bottom: 3.75rem;
 }
 
@@ -1889,4 +2062,3 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #D5A85A; /* Gold */
   margin: 1rem auto 0 auto !important;
 }
-
