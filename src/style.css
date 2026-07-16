@@ -220,6 +220,11 @@ h1, h2, h3, h4, h5, h6 {
   transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.35s ease;
 }
 
+.eco-destination-card-link {
+  color: inherit;
+  text-decoration: none;
+}
+
 .eco-destination-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 1.25rem 2.75rem rgba(60, 42, 24, 0.13);
@@ -1494,7 +1499,7 @@ h1, h2, h3, h4, h5, h6 {
   min-height: 100%;
   background:
     linear-gradient(90deg, rgba(250, 247, 242, 0) 0%, rgba(250, 247, 242, 0.85) 92%),
-    url('/images/herobg.png') center / cover;
+    url('/images/herobanner.png') center / cover;
 }
 
 .trust-content {

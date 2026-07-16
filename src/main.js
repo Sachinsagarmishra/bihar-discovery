@@ -161,7 +161,7 @@ document.querySelector('#app').innerHTML = `
       <div class="eco-destinations-grid">
         
         <!-- Card 1 -->
-        <article class="eco-destination-card">
+        <a href="/valmiki-tiger-reserve-package.html" class="eco-destination-card eco-destination-card-link" aria-label="View Valmiki Tiger Reserve package">
           <div class="eco-destination-card-head">
             <h3>Valmiki Tiger<br>Reserve</h3>
           </div>
@@ -172,8 +172,8 @@ document.querySelector('#app').innerHTML = `
           <div class="eco-destination-description">
             <p>Tiger safaris, birdwatching, river trails, forest camping and rich Himalayan foothill biodiversity.</p>
           </div>
-          <a href="#" class="eco-destination-cta">Explore packages</a>
-        </article>
+          <span class="eco-destination-cta">Explore packages</span>
+        </a>
 
         <!-- Card 2 -->
         <article class="eco-destination-card">
@@ -312,7 +312,7 @@ document.querySelector('#app').innerHTML = `
     <div class="container-main">
       <div class="text-center">
         <h2 class="font-heading text-3xl md:text-4xl text-primary-green" style="margin-bottom: 10px;">Visual Inspiration</h2>
-        <p class="text-text-light text-sm md:text-base" style="margin-bottom: 25px;">Experience the sacred aura and timeless beauty of Bihar through travel stories.</p>
+        <p class="text-text-light text-sm md:text-base" style="margin-bottom: 25px;">Experience the sacred aura and timeless beauty of Bihar through travel stories of creators.</p>
       </div>
 
       <div class="grid grid-cols-2 lg:grid-cols-5 gap-4 md:gap-6">
@@ -557,10 +557,10 @@ document.querySelector('#app').innerHTML = `
         <div class="trust-card">
           <div class="trust-image"></div>
           <div class="trust-content">
-            <h2>Trusted by families across India</h2>
+            <h2>Trusted by nature travellers across India</h2>
             <div class="quote-row">
               <span>“</span>
-              <p id="testimonialQuote">Our experience in Gaya Ji was peaceful and well-organised. The guidance was respectful, the arrangements were smooth, and we felt completely supported throughout our journey.</p>
+              <p id="testimonialQuote">Our Valmiki Tiger Reserve journey was beautifully organised. The forest guide was knowledgeable, the safari felt responsible, and every moment brought us closer to nature.</p>
             </div>
             <p class="quote-author" id="testimonialAuthor">— The Sharma Family, Delhi</p>
             <div class="trust-dots" id="testimonialDots">
@@ -602,47 +602,47 @@ document.querySelector('#app').innerHTML = `
         <div class="faq-list">
           <div class="faq-item">
             <button class="faq-question" onclick="toggleFaq(this)">
-              <span>Which religious pilgrimage packages are available?</span>
+              <span>Which forest and ecotourism destinations can I explore in Bihar?</span>
               <span class="faq-plus">+</span>
             </button>
             <div class="faq-answer">
-              <p>We offer thoughtfully planned journeys covering Bihar's major <strong>Buddhist, Hindu, Jain and Sikh pilgrimage sites</strong>. Packages can be customised according to duration, family size, budget, language, accessibility and preferred destinations.</p>
+              <p>You can explore destinations such as <strong>Valmiki Tiger Reserve, Rajgir Nature Safari, Bhimbandh Wildlife Sanctuary, Vikramshila Gangetic Dolphin Sanctuary and Kaimur Wildlife Sanctuary</strong>. Trips can be customised according to duration, group size, accessibility and preferred nature experiences.</p>
             </div>
           </div>
           <div class="faq-item">
             <button class="faq-question" onclick="toggleFaq(this)">
-              <span>What is the "Find Your Roots" service?</span>
+              <span>What is the best time for a forest or wildlife trip?</span>
               <span class="faq-plus">+</span>
             </button>
             <div class="faq-answer">
-              <p>"Find Your Roots" helps travellers explore their ancestral district, village, family traditions and cultural connections in Bihar. Our research coordinators assist using the information and available records provided by you. Historical or genealogical results cannot be guaranteed.</p>
+              <p>The cooler months from <strong>October to March</strong> are generally comfortable for safaris, forest trails and birdwatching. Opening dates, safari timings and access may change with weather, monsoon conditions and official forest-department rules, so always confirm them before travelling.</p>
             </div>
           </div>
           <div class="faq-item">
             <button class="faq-question" onclick="toggleFaq(this)">
-              <span>Do you provide local guides and travel coordinators?</span>
+              <span>Do I need permits for safaris and protected forest areas?</span>
               <span class="faq-plus">+</span>
             </button>
             <div class="faq-answer">
-              <p>Yes. Travellers can select verified local guides and journey coordinators based on their language, destination expertise and availability. Guide profiles, experience, service scope and charges are displayed before booking.</p>
+              <p>Many safaris and protected areas require advance entry permits or official bookings. We can help you check current requirements, available time slots, identification documents and applicable fees. Entry remains subject to official approval and availability.</p>
             </div>
           </div>
           <div class="faq-item">
             <button class="faq-question" onclick="toggleFaq(this)">
-              <span>Is 24×7 travel assistance available?</span>
+              <span>Are nature guides and safety assistance available?</span>
               <span class="faq-plus">+</span>
             </button>
             <div class="faq-answer">
-              <p>Yes. Our travel-assistance team supports guests before, during and after their journey. Support includes itinerary guidance, booking assistance, transport coordination, emergencies, service complaints and unexpected changes.</p>
+              <p>Yes. Guided experiences can include trained local nature guides, safari coordination and travel assistance. Visitors must follow all instructions related to designated routes, safe distances, waste disposal, noise levels and interactions with wildlife.</p>
             </div>
           </div>
           <div class="faq-item">
             <button class="faq-question" onclick="toggleFaq(this)">
-              <span>Are government subsidies or travel benefits available?</span>
+              <span>Are wildlife sightings guaranteed during a safari?</span>
               <span class="faq-plus">+</span>
             </button>
             <div class="faq-answer">
-              <p>Eligibility depends on the applicable government scheme, traveller category, documentation, available budget and official approval. We help travellers identify relevant schemes and understand the application process, but benefits or subsidies cannot be guaranteed.</p>
+              <p>No. Wildlife moves freely in its natural habitat, so sightings can never be guaranteed. Seasonal conditions, time of day and guide expertise may improve the experience, but responsible tourism always prioritises animal welfare and habitat protection.</p>
             </div>
           </div>
         </div>
@@ -894,19 +894,19 @@ window.addEventListener('scroll', () => {
 
   const testimonials = [
     {
-      quote: 'Our experience in Gaya Ji was peaceful and well-organised. The guidance was respectful, the arrangements were smooth, and we felt completely supported throughout our journey.',
+      quote: 'Our Valmiki Tiger Reserve journey was beautifully organised. The forest guide was knowledgeable, the safari felt responsible, and every moment brought us closer to nature.',
       author: '— The Sharma Family, Delhi'
     },
     {
-      quote: 'The team helped us plan every step with care. From arrival to ritual coordination, everything felt calm, clear and dependable.',
+      quote: 'Rajgir Nature Safari was the perfect mix of adventure and calm. The skywalk, forest trails and smooth travel arrangements made the experience unforgettable.',
       author: '— Rajiv Mehta, Mumbai'
     },
     {
-      quote: 'Our parents travelled comfortably and the local guide explained each tradition with patience. It became a meaningful family journey.',
+      quote: 'Watching Gangetic dolphins at Vikramshila was magical. Our guide explained the river ecosystem with care and made the boat journey comfortable for the whole family.',
       author: '— Ananya Sinha, Bengaluru'
     },
     {
-      quote: 'We wanted a simple, respectful itinerary for Gaya Ji and nearby heritage sites. Bihar Discovery made the whole experience smooth.',
+      quote: 'The forest trails, waterfalls and peaceful landscapes gave us exactly the nature escape we wanted. Every detail was planned thoughtfully and responsibly.',
       author: '— Priya Verma, Kolkata'
     }
   ];
